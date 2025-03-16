@@ -1,2 +1,2 @@
-# delivery-app-challenge
-Delivery App Challenge for Bain &amp; Company
+# Delivery App Challenge for Bain &amp; Company
+
