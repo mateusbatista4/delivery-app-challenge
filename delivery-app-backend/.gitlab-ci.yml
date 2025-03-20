@@ -1,0 +1,14 @@
+stages:
+  - deploy
+
+variables:
+  HEROKU_APP_NAME: $HEROKU_APP_NAME
+  HEROKU_PRODUCTION_KEY: $HEROKU_PRODUCTION_KEY
+
+heroku_deploy:
+    stage: deploy
+    only:
+        - main
+    script:
+      - gem install dpl
+      - dpl --provider=heroku --app=$HEROKU_APP_NAME --api-key=$HEROKU_PRODUCTION_KEY

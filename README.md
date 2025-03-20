@@ -1,5 +1,6 @@
 # Delivery App Challenge for Bain &amp; Company
 
+[This is the deployed project](https://delivery-app-front-bain-12377b431d89.herokuapp.com/)
 
 ## Questions
 
